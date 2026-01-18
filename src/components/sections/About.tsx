@@ -41,7 +41,7 @@ export default function About() {
       <div className="max-w-[85vw] mx-auto w-full">
 
         {/* --- Header --- */}
-        <div className="mb-20 flex flex-col md:flex-row justify-between items-end border-b border-white/10 pb-8">
+        <div className="mb-20 flex flex-col md:flex-row justify-between border-b border-white/10 pb-8">
           <div>
             <h2 className="reveal-text text-sm font-mono text-white/40 uppercase tracking-widest mb-4">
               {'// Profile_Data'}

@@ -196,7 +196,7 @@ export default function TerminalSidebar() {
       {/* 1. SIDEBAR TRIGGER */}
       <div 
         onClick={() => setIsOpen(true)}
-        className={`fixed top-0 right-0 h-full w-14 bg-[#050505] border-l border-white/5 z-40 flex flex-col items-center justify-center cursor-pointer transition-transform duration-500 hover:bg-white/5 group ${isOpen ? 'translate-x-full' : 'translate-x-0'}`}
+        className={`fixed hidden md:flex top-0 right-0 h-full w-14 bg-[#050505] border-l border-white/5 z-40 flex flex-col items-center justify-center cursor-pointer transition-transform duration-500 hover:bg-white/5 group ${isOpen ? 'translate-x-full' : 'translate-x-0'}`}
       >
         <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[1px] h-20 bg-gradient-to-b from-transparent via-white/20 to-transparent" />
         <div className="rotate-90 whitespace-nowrap font-mono text-[10px] text-white/40 tracking-[0.2em] uppercase flex items-center gap-4">

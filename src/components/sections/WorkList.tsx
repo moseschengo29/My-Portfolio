@@ -34,7 +34,7 @@ export default function WorkList() {
       <div className="max-w-[85vw] mx-auto px-6 w-full" onMouseMove={handleMouseMove}>
         
         {/* Header */}
-        <div className="mb-10 border-b border-white/10 pb-12 flex justify-between items-end">
+        <div className="mb-10 border-b border-white/10 pb-12 flex justify-between">
           <div>
 
           <h2 className="reveal-text text-sm font-mono text-[#e7e6d9] uppercase tracking-widest mb-4">

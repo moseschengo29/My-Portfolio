@@ -25,7 +25,7 @@ export default function SelectedWork() {
       <div className="max-w-[85vw] mx-auto w-full">
         
         {/* Header */}
-        <div className="mb-20 border-b border-white/10 pb-8 flex flex-col md:flex-row justify-between items-end">
+        <div className="mb-20 border-b border-white/10 pb-8 flex flex-col md:flex-row justify-between">
            <div>
                <h2 className="reveal-text text-sm font-mono uppercase tracking-widest mb-4">
                  {'// Deployment_Log'}

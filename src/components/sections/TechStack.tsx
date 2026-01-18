@@ -34,7 +34,7 @@ export default function TechStack() {
     <StackedSection id="stack" className="py-32 bg-[#050505]">
       <div className="max-w-[85vw] mx-auto w-full">
 
-      <div className="mb-20 border-b border-white/10 pb-8 flex flex-col md:flex-row justify-between items-end">
+      <div className="mb-20 border-b border-white/10 pb-8 flex flex-col md:flex-row justify-between">
            <div>
                <h2 className="reveal-text text-sm font-mono text-green-500 uppercase tracking-widest mb-4">
                  {'// Skill_stack'}
