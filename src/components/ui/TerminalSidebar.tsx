@@ -281,8 +281,8 @@ export default function TerminalSidebar() {
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 10 }}
-                        className="fixed bottom-0 right-0 w-full h-[85vh] lg:h-full lg:w-[600px] bg-[#0c0c0c] border-t lg:border-t-0 lg:border-l border-white/10 z-[70] shadow-2xl flex flex-col font-mono rounded-t-3xl lg:rounded-none"
-                        >
+                        className="absolute bottom-full left-4 right-4 mb-2 bg-[#111] border border-white/10 rounded-md overflow-hidden shadow-2xl"
+                    >
                         {filteredCommands.map((c) => (
                             <button
                                 key={c.cmd}

@@ -5,7 +5,8 @@ import {
   SiNextdotjs, SiReact, SiTypescript, SiPython, 
   SiDjango, SiTailwindcss, SiPostgresql, SiWebflow, 
   SiFigma, SiCanva, SiAffinitydesigner, SiAdobepremierepro, 
-  SiWordpress
+  SiWordpress,
+  SiFlutter
 } from "react-icons/si";
 import StackedSection from "../layout/StackedSection";
 
@@ -17,12 +18,15 @@ const TECH_STACK = [
   { id: "py", name: "Python", icon: SiPython, color: "#3776AB", cat: "Backend", desc: "Scalable logic, data manipulation, and automated workflows." },
   { id: "dj", name: "Django", icon: SiDjango, color: "#092E20", cat: "Framework", desc: "Rapid backend development with a focus on security and 'batteries-included' philosophy." },
   { id: "pg", name: "Postgres", icon: SiPostgresql, color: "#4169E1", cat: "Database", desc: "Relational data modeling with complex indexing and ACID compliance." },
+  { id: "fl", name: "Flutter", icon: SiFlutter, color: "#02569B", cat: "Mobile", desc: "Multi-platform application development with Dart and high-performance Skia rendering." },
+  { id: "rn", name: "React Native", icon: SiReact, color: "#61DAFB", cat: "Mobile", desc: "Building native mobile apps for iOS and Android using React primitives." },
   { id: "wp", name: "WordPress", icon: SiWordpress, color: "#21759B", cat: "CMS", desc: "Custom theme development and headless CMS implementations." },
   { id: "wf", name: "Webflow", icon: SiWebflow, color: "#4353FF", cat: "Low-Code", desc: "Bridging the gap between high-end design and rapid production deployment." },
   { id: "fig", name: "Figma", icon: SiFigma, color: "#F24E1E", cat: "Design", desc: "High-fidelity UI/UX prototyping and design system maintenance." },
   { id: "pr", name: "Premiere Pro", icon: SiAdobepremierepro, color: "#9999FF", cat: "Video", desc: "High-end post-production, motion sequences, and cinematic storytelling." },
   { id: "aff", name: "Affinity", icon: SiAffinitydesigner, color: "#1B72BA", cat: "Vector", desc: "Professional vector illustration and brand asset engineering." },
 ];
+
 export default function TechStack() {
   const [activeTech, setActiveTech] = useState(TECH_STACK[0]);
 

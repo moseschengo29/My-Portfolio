@@ -19,33 +19,40 @@ export const SELECTED_PROJECTS = [
   },
   {
     id: "02",
-    title: "Neural_Vision",
+    title: "Edu Analytics - Learners Management System",
     description: "AI Diagnostic assistant detecting anomalies in X-Rays with 98% accuracy.",
-    tags: ["Python", "TensorFlow", "FastAPI"],
-    repo: "https://github.com/moses/vision",
+    tags: ["Python", "Django", "React JS", "Tailwind CSS", "Postgress SQL"],
+    repo: "https://eduanalytics.co.ke/signin",
     link: "#",
     gallery: [
-      "/projects/med-1.jpg",
-      "/projects/med-2.jpg",
-      "/projects/med-3.jpg"
+      "/EduAnalytics/EduAnalytics1.png", 
+      "/EduAnalytics/EduAnalytics2.png", 
+      "/EduAnalytics/EduAnalytics3.png", 
+      "/EduAnalytics/EduAnalytics4.png", 
+      "/EduAnalytics/EduAnalytics5.png", 
+      "/EduAnalytics/EduAnalytics6.png", 
     ]
   },
   {
     id: "03",
-    title: "Hydrogen_Store",
+    title: "Alkam & Mulila - Audit and Accounting Firm",
     description: "Headless commerce architecture with sub-second global page loads.",
-    tags: ["Shopify", "GraphQL", "React"],
-    repo: "htpps://github.com/moses/store",
-    link: "#",
+    tags: ["Wordpress"],
+    repo: "https://alkammulila.com/",
+    link: "https://alkammulila.com/",
     gallery: [
-      "/projects/store-1.jpg",
-      "/projects/store-2.jpg"
+      "/AlkamMulila/AlkamMulila1.png", 
+      "/AlkamMulila/AlkamMulila2.png", 
+      "/AlkamMulila/AlkamMulila3.png", 
+      "/AlkamMulila/AlkamMulila4.png", 
+      "/AlkamMulila/AlkamMulila5.png", 
+      "/AlkamMulila/AlkamMulila6.png", 
     ]
   },
 ];
 
 export const PROJECTS_DB = [
     { id: "sea-quest-resources", name: "Sea Quest", path: "https://seaquestresources.com" },
-    { id: "medical", name: "AI Medical Scan", path: "/work/medical" },
-    { id: "commerce", name: "Hydrogen Store", path: "/work/commerce" },
+    { id: "alkam-mulila-llp", name: "Alkam & Mulila LLP", path: "https://alkammulila.com/" },
+    { id: "edu-analytics", name: "Edu Analytics - LMS", path: "https://eduanalytics.co.ke/signin" },
   ];
